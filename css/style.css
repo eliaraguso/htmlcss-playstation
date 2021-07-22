@@ -2,3 +2,64 @@
 * {
     font-family: Arial, sans-serif;
 }
+
+/* Common */
+
+/* Typo */
+
+/* Header */
+.header-top {
+    background-color: black;
+    text-align: end;
+}
+
+.logo-img {
+    height: 15px;
+    padding-right: 1%;
+}
+  
+
+.fa-bars {
+    color: #737373;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: 1px solid lightgray;
+    padding: 5px 14px;
+    border-radius: 6px;
+    display: none;
+}
+
+header ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.btn,
+.dropdown-menu,
+.btn:hover,
+.btn:visited {
+    background-color: transparent ;
+    color: black;
+    border: none;
+}
+
+.list-nav-items {
+    list-style: none;
+}
+
+.list-nav-items li {
+    display: inline;
+}
+
+header .navbar {
+    background-color: transparent!important;
+}
+
+header .navbar-nav {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
