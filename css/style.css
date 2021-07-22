@@ -13,13 +13,29 @@
 h2 {
     font-size: 2.5rem;
 }
+
+/* Header */
+header {
+    font-size: 1rem;
+    font-weight: 600;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 /* Header Top */
 .header-top {
     background-color: black;
     text-align: end;
 }
 
+/* Header Bottom */
+.header-bottom {
+    background-color: white;
+}
+
 /* Header Bottom left */
+
 .logo-img {
     height: 15px;
     padding-right: 1%;
@@ -49,11 +65,6 @@ header ul {
 
 header .navbar {
     background-color: transparent!important;
-}
-
-header {
-    font-size: 1rem;
-    font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link {
