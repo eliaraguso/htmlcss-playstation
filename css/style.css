@@ -4,31 +4,23 @@
 }
 
 /* Common */
-
+.btn-primary {
+    border-radius: 20px;
+}
 /* Typo */
 
-/* Header */
+/* Header Top */
 .header-top {
     background-color: black;
     text-align: end;
 }
 
+/* Header Bottom left */
 .logo-img {
     height: 15px;
     padding-right: 1%;
 }
   
-
-.fa-bars {
-    color: #737373;
-    text-decoration: none;
-    font-size: 1.6rem;
-    border: 1px solid lightgray;
-    padding: 5px 14px;
-    border-radius: 6px;
-    display: none;
-}
-
 header ul {
     list-style: none;
     display: inline-block;
@@ -55,11 +47,30 @@ header .navbar {
     background-color: transparent!important;
 }
 
-header .navbar-nav {
+header {
     font-size: 1rem;
     font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: black;
+}
+
+/* Header Bottom right */
+.header-bottom-right .btn-primary {
+    background-color: #363636;
+    margin: 0 20px;
+}
+
+.header-bottom-right img {
+    height: 24px;
+}
+
+.fa-bars {
+    color: #737373;
+    text-decoration: none;
+    font-size: 1.6rem;
+    border: 1px solid lightgray;
+    padding: 5px 14px;
+    border-radius: 6px;
 }
