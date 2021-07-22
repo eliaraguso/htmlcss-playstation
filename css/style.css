@@ -6,9 +6,13 @@
 /* Common */
 .btn-primary {
     border-radius: 20px;
+    color: white!important;
+    font-weight: 700;
 }
 /* Typo */
-
+h2 {
+    font-size: 2.5rem;
+}
 /* Header Top */
 .header-top {
     background-color: black;
@@ -73,4 +77,36 @@ header {
     border: 1px solid lightgray;
     padding: 5px 14px;
     border-radius: 6px;
+}
+
+/* Section Hero */
+.hero {
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo-hero {
+    width: 56%;
+}
+
+.hero p {
+    font-weight: 600;
+}
+
+.hero .btn-primary {
+    background-color: #cd3d0f;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.hero .container-fluid {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.hero h2 {
+    margin: 40px 0;
 }
