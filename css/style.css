@@ -80,7 +80,7 @@ header {
 }
 
 /* Section Hero */
-.hero {
+.hero-background {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -110,3 +110,14 @@ header {
 .hero h2 {
     margin: 40px 0;
 }
+
+.hero-list img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.hero-list .row div {
+    padding: 20px 20px;
+}
+
+
