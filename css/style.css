@@ -8,6 +8,7 @@
     border-radius: 20px;
     color: white!important;
     font-weight: 500;
+    max-width: max-content;
 }
 /* Typo */
 h2 {
@@ -246,11 +247,12 @@ header .navbar {
 .playstation-plus {
     margin: 80px 0;
     background-color: #bebcbb;
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
-.playstation-plus .d-none img {
+#img-plus-titles {
     width: 100%;
+    display: none;
 }
 
 #plus-logo {
@@ -269,6 +271,68 @@ header .navbar {
     color: #1057fd!important;
 }
 
+/* Media PlayStation Plus section */
 
+/* for devices from 576px to 767px */
+@media screen and (min-width: 576px) {
+    .playstation-plus {
+        padding: 0;
+    }
+
+    #paragraph-plus {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .col-plus-left{
+        padding-top: 10px;
+    }
+
+    #plus-logo {
+        margin: 0;
+    }
+
+}
+
+ /* for devices from 768px to 991px */
+@media screen and (min-width: 768px) {
+    .playstation-plus {
+        padding: 0;
+    }
+
+    #paragraph-plus {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .col-plus-left{
+        padding-top: 10px;
+    }
+
+    #img-plus-titles {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+ /* for devices from 992px to all widths */
+ @media screen and (min-width: 992px) {
+    .playstation-plus {
+        padding: 0;
+    }
+
+    #paragraph-plus {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .playstation-plus .py-4 {
+        padding-top: 8%!important;
+    }
+
+    
+    
+}
 
 
