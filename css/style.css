@@ -332,9 +332,30 @@ header .navbar {
     .playstation-plus .py-4 {
         padding-top: 8%!important;
     }
-
-    
-    
 }
 
+/* PlayStation store section */
+.playstation-store img {
+    width: 100%;
+}
 
+#img-center-store {
+    padding: 30px 0;
+}
+
+/* Media PlayStation Store section */
+
+/* for devices from 576px to 767px */
+
+
+/* for devices from 768px to 991px */
+@media screen and (min-width: 768px) {
+    #img-center-store {
+        padding: 0;
+    }
+}
+
+/* for devices from 992px to all widths */
+
+
+/* Media PlayStation Store section */
