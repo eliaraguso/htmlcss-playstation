@@ -140,7 +140,7 @@ header .navbar {
 
 /* Section Playstation 5 */
 .playstation-5 {
-    padding-top: 100px;
+    margin: 100px 0;
 }
 .playstation-5 h6 {
     color: #0876cf;
