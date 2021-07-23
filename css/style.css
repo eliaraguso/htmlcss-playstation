@@ -41,6 +41,15 @@ header .dropdown-item {
     font-weight: 600;
     background-color: white;
 }
+
+header .dropdown-toggle::after {
+    content: url(../img/chevron-down-solid.svg);
+    color: black;
+    width: 10px;
+    border: none;
+    vertical-align: middle;
+}
+
 /* Header Bottom left */
 
 .logo-img {
