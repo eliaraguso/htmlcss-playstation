@@ -178,13 +178,16 @@ header .navbar {
 
 .playstation-5 .btn-primary {
     background-color: #2d64e6;
-}   
+}
+
 /* Section New releases */
-.new-releases-background {
+
+.new-releases-top {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 50px;
 }
 
 .new-releases {
