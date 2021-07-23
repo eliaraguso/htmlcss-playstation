@@ -355,7 +355,95 @@ header .navbar {
     }
 }
 
-/* for devices from 992px to all widths */
 
 
-/* Media PlayStation Store section */
+
+
+
+
+
+
+/* PlayStation Now */
+.playstation-now {
+    margin: 80px 0;
+    background-color: #161c3b;
+    padding: 20px 0;
+}
+
+#img-now-titles {
+    width: 100%;
+    display: none;
+}
+
+#now-logo {
+    width: 60%;
+    margin-bottom: 30px;
+    
+}
+
+#paragraph-now {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.playstation-now .btn-primary {
+    background-color: #f5f5f5;
+    color: black!important;
+}
+
+/* Media PlayStation Plus section */
+
+/* for devices from 576px to 767px */
+@media screen and (min-width: 576px) {
+    .playstation-now {
+        padding: 0;
+    }
+
+    #paragraph-now {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .col-now-left{
+        padding-top: 10px;
+    }
+
+}
+
+ /* for devices from 768px to 991px */
+@media screen and (min-width: 768px) {
+    .playstation-now {
+        padding: 0;
+    }
+
+    #paragraph-now {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .col-now-left{
+        padding-top: 10px;
+    }
+
+    #img-now-titles {
+        display: block;
+        width: 100%;
+    }
+
+}
+
+ /* for devices from 992px to all widths */
+ @media screen and (min-width: 992px) {
+    .playstation-now {
+        padding: 0;
+    }
+
+    #paragraph-now {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .playstation-now .py-4 {
+        padding-top: 8%!important;
+    }
+}
