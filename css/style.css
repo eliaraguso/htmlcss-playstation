@@ -108,11 +108,14 @@ header .navbar {
 }
 
 /* Section Hero */
-.hero-background {
+.hero-top {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.hero-container {
+    padding-top: 350px;
 }
 
 .logo-hero {
