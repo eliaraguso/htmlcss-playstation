@@ -176,44 +176,58 @@ header .navbar {
     border-bottom: 2px solid #1a82d6;
 }
 
-    /* Section New releases */
-    .new-releases-background {
-        background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .logo-new-releases {
-        width: 56%;
-    }
-    
-    .new-releases p {
-        font-weight: 600;
-    }
-    
-    .new-releases .btn-primary {
-        background-color: #cd3d0f;
-        margin-bottom: 30px;
-        margin-top: 10px;
-    }
-    
-    .new-releases .container-fluid {
-        padding-top: 200px;
-        padding-left: 20px;
-        padding-bottom: 20px;
-    }
-    
-    .new-releases h2 {
-        margin: 40px 0;
-    }
-    
-    .new-releases-list img {
-        width: 100%;
-        border-radius: 10px;
-    }
-    
-    .new-releases-list .row div {
-        padding: 20px 20px;
-    }
-    
+/* Section New releases */
+.new-releases-background {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.new-releases {
+    background-color: #1f1f1f;
+}
+.logo-new-releases {
+    width: 56%;
+}
+
+.new-releases p {
+    font-weight: 600;
+}
+
+.new-releases .btn-primary {
+    background-color: #cd3d0f;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.new-releases .container-fluid {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.new-releases h2 {
+    margin: 40px 0;
+}
+
+.new-releases-list img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.new-releases-list .row div {
+    padding: 20px 20px;
+}
+/* Section PlayStation 4 */
+.playstation-4 p {
+    color: #727272;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+} 
+.playstation-5 .btn-primary {
+    background-color: #2d64e6;
+}   
+
+
