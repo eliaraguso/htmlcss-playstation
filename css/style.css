@@ -176,6 +176,9 @@ header .navbar {
     border-bottom: 2px solid #1a82d6;
 }
 
+.playstation-5 .btn-primary {
+    background-color: #2d64e6;
+}   
 /* Section New releases */
 .new-releases-background {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
@@ -220,14 +223,25 @@ header .navbar {
     padding: 20px 20px;
 }
 /* Section PlayStation 4 */
+.playstation-4 {
+    margin-top: 70px;
+}
+
 .playstation-4 p {
     color: #727272;
     font-weight: 700;
     font-size: 20px;
     margin-top: 20px;
 } 
-.playstation-5 .btn-primary {
+
+.playstation-4 img {
+    width: 100%;
+}
+
+.playstation-4 .btn-primary {
     background-color: #2d64e6;
-}   
+}
+
+
 
 
