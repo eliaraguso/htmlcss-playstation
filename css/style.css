@@ -9,7 +9,10 @@
     color: white!important;
     font-weight: 500;
     max-width: max-content;
+    
 }
+
+
 /* Typo */
 h2 {
     font-size: 2.6rem;
@@ -24,6 +27,12 @@ header {
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+
+/* Overlay effect */
+header .btn-primary:hover {
+    border: 3px solid #363636;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* Header Top */
@@ -132,6 +141,7 @@ header .navbar {
     margin-top: 10px;
 }
 
+
 .hero .container-fluid {
     padding-top: 200px;
     padding-left: 20px;
@@ -149,6 +159,12 @@ header .navbar {
 
 .hero-list .row div {
     padding: 20px 20px;
+}
+
+/* Overlay effect */
+.hero .btn-primary:hover {
+    border: 3px solid #cd3d0f;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* Section Playstation 5 */
@@ -178,6 +194,12 @@ header .navbar {
 
 .playstation-5 .btn-primary {
     background-color: #2d64e6;
+}
+
+/* Overlay effect */
+.playstation-5 .btn-primary:hover {
+    border: 3px solid #2d64e6;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* Section New releases */
@@ -225,6 +247,13 @@ header .navbar {
 .new-releases-list .row div {
     padding: 20px 20px;
 }
+
+/* Overlay effect */
+.new-releases .btn-primary:hover {
+    border: 3px solid #cd3d0f;
+    box-shadow: 0 0 0 2px white inset;
+}
+
 /* Section PlayStation 4 */
 .playstation-4 {
     margin-top: 70px;
@@ -243,6 +272,11 @@ header .navbar {
 
 .playstation-4 .btn-primary {
     background-color: #2d64e6;
+}
+
+.playstation-4 .btn-primary:hover {
+    border: 3px solid #2d64e6;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* PlayStation Plus */
@@ -271,6 +305,11 @@ header .navbar {
 .playstation-plus .btn-primary {
     background-color: #d9dadc;
     color: #1057fd!important;
+}
+
+.playstation-plus .btn-primary:hover {
+    border: 3px solid #d9dadc;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* Media PlayStation Plus section */
@@ -345,23 +384,12 @@ header .navbar {
 
 /* Media PlayStation Store section */
 
-/* for devices from 576px to 767px */
-
-
 /* for devices from 768px to 991px */
 @media screen and (min-width: 768px) {
     #img-center-store {
         padding: 0;
     }
 }
-
-
-
-
-
-
-
-
 
 /* PlayStation Now */
 .playstation-now {
@@ -391,8 +419,13 @@ header .navbar {
     color: black!important;
 }
 
-/* Media PlayStation Plus section */
+/* Overlay effects */
+.playstation-now .btn-primary:hover {
+    border: 3px solid #d9dadc;
+    box-shadow: 0 0 0 2px #161c3b inset;
+}
 
+/* Media PlayStation Plus section */
 /* for devices from 576px to 767px */
 @media screen and (min-width: 576px) {
     .playstation-now {
