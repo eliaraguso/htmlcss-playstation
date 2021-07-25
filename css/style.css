@@ -155,6 +155,7 @@ header .navbar {
 .hero-list img {
     width: 100%;
     border-radius: 10px;
+    transition: transform 0.3s;
 }
 
 .hero-list .row div {
@@ -165,6 +166,11 @@ header .navbar {
 .hero .btn-primary:hover {
     border: 3px solid #cd3d0f;
     box-shadow: 0 0 0 2px white inset;
+}
+
+.hero-list img:hover {
+    transform: translateY(-10px);
+    
 }
 
 /* Section Playstation 5 */
@@ -188,18 +194,23 @@ header .navbar {
     background-color: #2d64e6;
 }
 
-.playstation-5 .col-4:hover {
-    border-bottom: 2px solid #1a82d6;
-}
-
 .playstation-5 .btn-primary {
     background-color: #2d64e6;
+}
+
+.playstation-5 .col-4 {
+    opacity: 0.7;
 }
 
 /* Overlay effect */
 .playstation-5 .btn-primary:hover {
     border: 3px solid #2d64e6;
     box-shadow: 0 0 0 2px white inset;
+}
+
+.playstation-5 .col-4:hover {
+    border-bottom: 2px solid #1a82d6;
+    opacity: 1;
 }
 
 /* Section New releases */
