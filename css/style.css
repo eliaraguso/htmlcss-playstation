@@ -9,7 +9,6 @@
     color: white!important;
     font-weight: 500;
     max-width: max-content;
-    
 }
 
 
@@ -29,91 +28,92 @@ header {
     width: 100%;
 }
 
-/* Overlay effect */
-header .btn-primary:hover {
-    border: 3px solid #363636;
-    box-shadow: 0 0 0 2px white inset;
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
 }
-
-/* Header Top */
 .header-top {
+    height: 30px;
+    line-height: 30px;
     background-color: black;
-    text-align: end;
 }
-
-/* Header Bottom */
+.header-top img {
+    width: 70px;
+}
+.navbar-brand img {
+    width: 45px;
+}
 .header-bottom {
     background-color: white;
 }
-
-header .dropdown-item {
-    color: black!important;
-    font-weight: 600;
-    background-color: white;
-}
-
-header .dropdown-toggle::after {
-    content: url(../img/chevron-down-solid.svg);
+.header-bottom .nav-item .nav-link {
     color: black;
-    width: 10px;
+}
+.lens_nav {
+    width: 20px;
+    margin-left: 20px;
+}
+.header-bottom .btn {
+    margin-left: 20px;
+} 
+.header-bottom .dropdown-toggle::after {
     border: none;
+}
+.chevron_down {
+    width: 10px;
     vertical-align: middle;
 }
-
-/* Header Bottom left */
-
-.logo-img {
-    height: 15px;
-    padding-right: 1%;
+.dropdown, 
+.dropend, 
+.dropstart, 
+.dropup {
+    position: static;
 }
-  
-header ul {
-    list-style: none;
-    display: inline-block;
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0px;
 }
-
-.btn,
-.dropdown-menu,
-.btn:hover,
-.btn:visited {
-    background-color: transparent ;
-    color: black;
+.dropdown-menu {
+    width: 100%;
     border: none;
+    border-radius: 0px;
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
 }
-
-.list-nav-items {
-    list-style: none;
+.dropdown_ps5 {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 50px 10px 50px;
 }
-
-.list-nav-items li {
-    display: inline;
+.dropdown_ps5 img {
+    width: 80px;
 }
-
-header .navbar {
-    background-color: transparent!important;
+.dropdown_ps5 span {
+    display: block;
 }
-
-.navbar-light .navbar-nav .nav-link {
-    color: black;
+.dropdown_ps5_link {
+    list-style-type: disc;
 }
-
-/* Header Bottom right */
-.header-bottom-right .btn-primary {
-    background-color: #363636;
-    margin: 0 20px;
+.dropdown_ps5_link li {
+    margin: 0px 20px;
 }
-
-.header-bottom-right img {
-    height: 24px;
+.dropdown_ps5_link li::marker {
+    color: #0270d1;
 }
-
-.fa-bars {
-    color: #737373;
+.dropdown-menu li a {
     text-decoration: none;
-    font-size: 1.6rem;
-    border: 1px solid lightgray;
-    padding: 5px 14px;
-    border-radius: 6px;
+    color: currentColor;
+}
+.chevron_down {
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+
+/* Overlay efffect */
+header .btn-primary:hover {
+    border: 3px solid #0a58ca;
+    box-shadow: 0 0 0 2px white inset;
 }
 
 /* Section Hero */
@@ -238,6 +238,7 @@ header .navbar {
     background-color: #cd3d0f;
     margin-bottom: 30px;
     margin-top: 10px;
+    border-color: #cd3d0f;
 }
 
 .new-releases .container-fluid {
@@ -316,6 +317,7 @@ header .navbar {
 .playstation-plus .btn-primary {
     background-color: #d9dadc;
     color: #1057fd!important;
+    border-color: #d9dadc;
 }
 
 .playstation-plus .btn-primary:hover {
@@ -428,6 +430,7 @@ header .navbar {
 .playstation-now .btn-primary {
     background-color: #f5f5f5;
     color: black!important;
+    border-color: #f5f5f5;
 }
 
 /* Overlay effects */
